@@ -29,7 +29,7 @@ const ItemList = () => {
     const memoizedItems = useMemo(() => {
         return items.map((item) => (
             <div key={item._id}>
-                <h2>{item.name}</h2>
+                <h3>{item.name}</h3>
                 <p>{item.description}</p>
                 <p>${item.price}</p>
             </div>
